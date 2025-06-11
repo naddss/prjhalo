@@ -1,10 +1,9 @@
-#include<iostream>
-
+#include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-    cout << "Batagor enak" << endl;
-    cout << "ini file yg bujur";
+    string nama[5]; // array string berisi 5 elemen
     return 0;
 }
 
