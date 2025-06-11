@@ -3,14 +3,9 @@
 using namespace std;
 
 int main() {
-    string nama[5];
+    string nama[5] = {"Ali", "Budi", "Citra", "Dina", "Eka"};
 
-    for (int i = 0; i < 5; i++) {
-        cout << "Masukkan nama ke-" << i + 1 << ": ";
-        getline(cin, nama[i]);
-    }
-
-    cout << "\nDaftar nama:\n";
+    cout << "Daftar nama:\n";
     for (int i = 0; i < 5; i++) {
         cout << nama[i] << endl;
     }
